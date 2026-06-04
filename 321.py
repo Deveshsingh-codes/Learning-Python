@@ -1,15 +1,15 @@
 # Functions and Docstrings
-#a=8
-#b=18
-#c=sum((a,b))  #Built-in function sum() to add a and b
-#print(c)  #Output: 26
+a=8
+b=18
+c=sum((a,b))  #Built-in function sum() to add a and b
+print(c)  #Output: 26
 
-#def function1():
-#    """This is a simple function that prints a message."""
-#    print("Hello, this is function1!")
-#    print("This function demonstrates the use of docstrings.")
-#    print(function1) #This will print the function object, not the docstring that will be nothing right now in the function1() output
-#    #function1.__doc__ = "This is a simple function that prints a message." #Assigning a docstring to the function1
+def function1():
+    """This is a simple function that prints a message."""
+    print("Hello, this is function1!")
+    print("This function demonstrates the use of docstrings.")
+    print(function1) #This will print the function object, not the docstring that will be nothing right now in the function1() output
+    function1.__doc__ = "This is a simple function that prints a message." #Assigning a docstring to the function1
 
 def function2(a,b):
     avg = (a + b) / 2
