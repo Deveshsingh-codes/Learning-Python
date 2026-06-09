@@ -8,4 +8,10 @@
 "+" # open file for updating (reading and writing)  
 
 
-# Question of the day----
+# Question of the day---- function me docstring ko read aur print krne ka kaya code rhega 
+def add(a, b):
+    """This function adds two numbers."""
+    return a + b
+
+print(add.__doc__)
+ 
