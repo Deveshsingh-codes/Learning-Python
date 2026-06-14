@@ -30,3 +30,15 @@ def function2():
 function2()
 
 print("Function ke baad Global l =", l)
+
+#ek example aur----
+def devesh():
+    x=20 #--->ye devesh ka local variable hai...
+    def rohan():
+        global x # isko functio nke ek dm bahr ajke dhundhega 
+        x=88
+    print("before calling rohan",x)
+    rohan()
+    print("After calling rohan",x)
+devesh()
+print(x)        
