@@ -11,5 +11,4 @@ for item in l1:
     
 for index, item in enumerate(l1):
     if index%2==0:
-        print(f"Jarvis please buy{item}")
-    
+        print(f"Jarvis please buy{item}")    
