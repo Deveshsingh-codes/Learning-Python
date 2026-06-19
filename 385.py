@@ -14,3 +14,6 @@ def funcret(num):
     if num ==1:
         return int
         #return sum  ##Function ka use krke function bhi call kr skte hai..
+a=funcret(1) ## <class' int>
+a=funcret(0) ## <built-in function print>
+print(a)
