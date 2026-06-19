@@ -17,3 +17,19 @@ def funcret(num):
 a=funcret(1) ## <class' int>
 a=funcret(0) ## <built-in function print>
 print(a)
+
+
+
+def executor(func):
+    func("this")
+    
+## Function ke andr function daal skte hai as an argument
+executor(print)
+
+
+def dec1(fun1):
+    def nowexec():
+        print("Executingnow")
+        fun1()
+        print("Executed")
+    return nowexec    
