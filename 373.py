@@ -29,3 +29,19 @@ def funargs(*args):
         print (items)
 har=["Harry", "Devesh", "Surya", "Chhotu"]
 funargs(*har)
+
+#<----**kwargs--->
+
+def funarg(normal,*args,**kwargs):
+    print(normal)
+    print("I would like to introduce")
+    for items in args:
+        print(items)
+    for key, value in kwargs.items():
+        print(key,value)
+    #for key(f"{key} is a {value}")
+har=  ["Harry", "Devesh", "Surya", "Chhotu"] 
+normal="I am normal argument and the students are"
+kw={"Rohan":"Monitor","Shivan":"programmer","Vineet":"Campus mantri"}
+funarg(normal,*har,**kw)
+ 
