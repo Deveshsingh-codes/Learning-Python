@@ -5,5 +5,4 @@
 
 
 
-#  DRY = DO NOT REPEAT YOURSELF    
-   
+#  DRY = DO NOT REPEAT YOURSELFS
