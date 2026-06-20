@@ -33,3 +33,21 @@ def dec1(fun1):
         fun1()
         print("Executed")
     return nowexec    
+
+@dec1
+def who_is_harry():
+    print("Today, Ritik is Selected as an Co-Campus mantri of gfgiec")
+who_is_harry()
+
+
+
+
+def who_is_harry():
+    print("Today, Ritik is Selected as an Co-Campus mantri of gfgiec")
+who_is_harry=dec1(who_is_harry)
+who_is_harry()
+
+
+###    who_is_harry=dec1(who_is_harry)
+###    @dec1
+# ye dono ka mtlb same hai same output dengi ye dono line 
