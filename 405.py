@@ -1,1 +1,5 @@
 # OOPS
+
+
+class Student:
+    pass
