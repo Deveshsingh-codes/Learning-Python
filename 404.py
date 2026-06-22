@@ -16,5 +16,14 @@ Rohan.salary=500
 Harry.role="Instructor"
 Rohan.role="Student"
 
+
+
+Harry.name="Harry"
+Rohan.name="Rohan"
+Harry.salary=400
+Rohan.salary=500
+Harry.role="Instructor"
+Rohan.role="Student"
+
 print(Rohan.printdetails())    
         
