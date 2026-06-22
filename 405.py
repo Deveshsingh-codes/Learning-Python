@@ -10,3 +10,8 @@ class Employee():
 
     def printdetails(self):
         return f"The name is {self.name}, salary is {self.salary}, role is {self.role}"
+    
+    @classmethod
+    def change_leaves(cls,newleave):
+        cls.no_of_leaves=newleave
+        
