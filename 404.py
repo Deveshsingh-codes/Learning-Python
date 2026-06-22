@@ -16,14 +16,13 @@ Rohan.salary=500
 Harry.role="Instructor"
 Rohan.role="Student"
 
+print(Rohan.printdetails())    # in this function Rohan is entered as an Argument......self=Rohan
+#   Name is Rohan salary is 500 and role is  Student
 
 
-Harry.name="Harry"
-Rohan.name="Rohan"
-Harry.salary=400
-Rohan.salary=500
-Harry.role="Instructor"
-Rohan.role="Student"
 
-print(Rohan.printdetails())    
+#Harry=Employee("Harry",400,"Instructor")
+#print(Harry.salary)
+# THis line give an error ---> TypeError: Employee() takes no arguments
+
         
