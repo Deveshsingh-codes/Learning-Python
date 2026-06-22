@@ -31,3 +31,7 @@ print(Harry.no_of_leaves) #  9
 print(Rohan.__dict__)  #  {'name': 'Rohan', 'salary': 500, 'role': 'Student', 'no_of_leaves': 17}  ....it prints the dictionary of Rohan
 print(Rohan.no_of_leaves) # Above Rohan's no_of_leaves change it returns 17
 
+#<<<--------INSATNCE SE CLASS VARIABLE CHANGE NHI HOGA -------->>>
+
+
+
