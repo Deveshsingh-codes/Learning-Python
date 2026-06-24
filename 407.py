@@ -13,3 +13,8 @@ class Employee():
     @classmethod
     def from_str(cls,string):
         return cls(*string.split("-"))
+    
+    @staticmethod
+    def printgood(string):
+        print("This is a good " + string)
+        
