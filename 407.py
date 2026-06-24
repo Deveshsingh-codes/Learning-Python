@@ -21,4 +21,7 @@ class Employee():
 Harry=Employee("Harry",400,"Instructor")
 Rohan=Employee("Rohan",500,"Student")
 Karan =Employee.from_str("Karan-600-Teacher")
-print(Karan.printgood("Harry"))
+print(Karan.printgood("Harry")) 
+
+#This is a good Harry
+#None
