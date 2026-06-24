@@ -18,3 +18,6 @@ class Employee():
     def printgood(string):
         print("This is a good " + string)
         
+Harry=Employee("Harry",400,"Instructor")
+Rohan=Employee("Rohan",500,"Student")
+Karan =Employee.from_str("Karan-600-Teacher")
