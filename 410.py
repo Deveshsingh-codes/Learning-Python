@@ -18,3 +18,8 @@ class Employee():
     @staticmethod
     def printgood(string):
             print("This is a good " + string)
+
+class Player:
+    no_of_games = 4
+    def __init__(self,name,game):
+        self.name=name            
