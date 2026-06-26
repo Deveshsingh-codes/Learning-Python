@@ -29,4 +29,5 @@ class Player:
         return f"The Name is {self.name} and the game is  {self.game}."
 class coolprogram(Employee, Player):
     pass     
-    
+Harry = Employee
+Rohan = Employee
