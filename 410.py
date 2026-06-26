@@ -36,4 +36,4 @@ Karan = coolprogram
 class coolprogram(Employee, Player):
     language = "C++"
     def printlanguage(self):
-        print
+        print(self.language)
