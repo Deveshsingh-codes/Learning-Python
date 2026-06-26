@@ -31,3 +31,5 @@ class coolprogram(Employee, Player):
     pass     
 Harry = Employee
 Rohan = Employee
+Subham = Player("Subham",["Cricket"])
+Karan = coolprogram
