@@ -33,3 +33,7 @@ Harry = Employee
 Rohan = Employee
 Subham = Player("Subham",["Cricket"])
 Karan = coolprogram
+class coolprogram(Employee, Player):
+    language = "C++"
+    def printlanguage(self):
+        print
