@@ -22,4 +22,5 @@ class Employee():
 class Player:
     no_of_games = 4
     def __init__(self,name,game):
-        self.name=name            
+        self.name=name 
+        self.game = game           
