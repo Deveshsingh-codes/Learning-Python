@@ -26,4 +26,5 @@ class Player:
         self.game = game         
         
     def printdetails(self):
-        return   
+        return f"The Name is {self.name} and the game is  {self.game}."
+    
