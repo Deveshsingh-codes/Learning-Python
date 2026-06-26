@@ -27,4 +27,6 @@ class Player:
         
     def printdetails(self):
         return f"The Name is {self.name} and the game is  {self.game}."
+class coolprogram(Employee, Player):
+    pass     
     
