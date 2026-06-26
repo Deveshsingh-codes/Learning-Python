@@ -23,4 +23,7 @@ class Player:
     no_of_games = 4
     def __init__(self,name,game):
         self.name=name 
-        self.game = game           
+        self.game = game         
+        
+    def printdetails(self):
+        return   
