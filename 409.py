@@ -52,3 +52,4 @@ Subham = programmer("Subham",700,"Programmer",["Python"])
 Ritik = programmer("Ritik",900,"Programmer",["C++"])
 print(Ritik.printdetails())     # The name is Ritik, salary is 900, role is Programmer
 print(Ritik.printprog())   #The programer name is Ritik , the salary is 900 and the role is Programmer and the language is ['C++'] .
+print(Subham.printprog())   #The programer name is Subham , the salary is 700 and the role is Programmer and the language is ['Python'] .
