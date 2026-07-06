@@ -29,10 +29,10 @@ class Player:
         return f"The Name is {self.name} and the game is  {self.game}."
 class coolprogram(Employee, Player):
     pass     
-Harry = Employee
-Rohan = Employee
+Harry = Employee("Harry",400,"Instructor")
+Rohan = Employee("Rohan",500,"Student")
 Subham = Player("Subham",["Cricket"])
-Karan = coolprogram
+Karan = coolprogram("Karan",600,"Cool Programmer")
 class coolprogram(Employee, Player):
     language = "C++"
     def printlanguage(self):
