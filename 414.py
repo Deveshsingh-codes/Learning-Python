@@ -30,4 +30,41 @@ class D(B, C):
     pass
 d.met() # This will call the method from class B due to method resolution order (MRO)
 print(D.__mro__) # This will display the method resolution order
-                
+
+#----------------------------------------------------------------->
+
+class A:
+    def met(self):
+        print("This is a method from class A")
+class B(A):
+    def met(self):
+        print("This is a method from class B")
+class C(A):
+    def met(self):
+        print("This is a method from class C")
+class D(B, C):
+    pass
+d.met() # This will call the method from class B due to method resolution order (MRO)
+print(B.__mro__) # This will display the method resolution order
+
+#----------------------------------------------------------------->
+
+class A:
+    def met(self):
+        print("This is a method from class A")
+class B(A):
+    def met(self):
+        print("This is a method from class B")
+class C(A):
+    def met(self):
+        print("This is a method from class C")
+class D(B, C): #class D(C,B): # This will change the method resolution order (MRO)
+    def met(self):
+        print("This is a method from class D")
+d=D() # This will call the method from class D due to method resolution order (MRO)
+d.met() # This will call the method from class D due to method resolution order (MRO)
+print(D.__mro__) # This will display the method resolution order
+
+
+# Kai sari languages me Diamond shape problem ka solution yehi hai ki aapko method resolution order (MRO) ka dhyan rakhna hoga. Python me MRO ko samajhne ke liye aap `__mro__` attribute ka use kar sakte hain jo ki class hierarchy ko dikhata hai.
+# aur kyu lan me multiple inheritance support hi nhi krta hai....EXAMPLE- C,C++
