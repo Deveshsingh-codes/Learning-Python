@@ -2,9 +2,9 @@
 import time
 
 initial=time.time()
-print(initial) #It th enumber of ticks
+print(initial) #It gives the number of ticks
 
-#print(time.sleep(2)) #it gives the output with the break of 2 seconds 
+#print(time.sleep(2))  #it gives the output with the break of 2 seconds 
 
 k=0
 while(k<45):
