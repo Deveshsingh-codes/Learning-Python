@@ -47,6 +47,7 @@ patt = re.compile(r'\Ayears')
 patt = re.compile(r'\byears')
 patt = re.compile(r'years\b')
 patt = re.compile(r'14\b')
+patt = re.compile(r'\d{5}-\d{14}')
 
 
 matches=patt.finditer(dingdong)
@@ -57,3 +58,10 @@ for match in matches:
 
     print(dingdong[888:892]) #<re.Match object; span=(888, 892), match='over'> over
 #print(r"\n") --->escape sequence ko regulary escape nhi krta hai...
+
+
+
+
+#CHALLANGE-->
+
+#Given a string with a lot of indian phone numbers string from +91
