@@ -32,15 +32,15 @@ List
 The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of wolves. Also called the domestic dog, it was selectively bred during the Late Pleistocene by hunter-gatherers. Dogs and the modern gray wolf share a common ancestor.[4] Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture,
 '''
 #findall, search, split, sub, finditer
-#patt = re.compile(r'over')
-#patt = re.compile(r'.be') 
-#patt = re.compile(r'^years') 
-#patt = re.compile(r'ture$') 
-#patt = re.compile(r'ai*')
-#patt = re.compile(r'ai+')
-#patt = re.compile(r'ai{2}')
-#patt = re.compile(r'(ai){2}')
-#patt = re.compile(r'ai{2}|t')
+patt = re.compile(r'over')
+patt = re.compile(r'.be') 
+patt = re.compile(r'^years') 
+patt = re.compile(r'ture$') 
+patt = re.compile(r'ai*')
+patt = re.compile(r'ai+')
+patt = re.compile(r'ai{2}')
+patt = re.compile(r'(ai){2}')
+patt = re.compile(r'ai{2}|t')
 
 #Special sequences
 patt = re.compile(r'\Ayears')
