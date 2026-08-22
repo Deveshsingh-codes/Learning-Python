@@ -1,3 +1,5 @@
+#. Raise in Pyhton
+
 a = input("What is your name")
 
 b = input("How much do u earn")
